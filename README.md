@@ -12,3 +12,8 @@ If you haven't built the Docker image yet, you can do so with the following comm
 
 ```bash
 docker build -t safeqr-fastapi-app .
+
+## Run the Docker Container
+To run the Docker container from the image, use the following command:
+```bash
+docker run -d -p 8000:8000 safeqr-fastapi-app
