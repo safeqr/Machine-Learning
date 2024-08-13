@@ -7,7 +7,7 @@ import pandas as pd
 app = FastAPI()
 
 # Load the trained model
-model = joblib.load('random_forest_model.pkl')
+model = joblib.load('randomized_search_xgb_model-2.pkl')
 
 # Define the input data structure using Pydantic
 class InputData(BaseModel):
