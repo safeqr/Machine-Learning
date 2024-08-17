@@ -19,7 +19,7 @@ docker build -t safeqr-fastapi-app .
 To run the Docker container from the image, use the following command:
 
 ```bash
-docker run -d -p 8000:8000 safeqr-fastapi-app
+docker run -d --name safeqr-ml -p 8000:8000 safeqr-fastapi-app
 ```
 
 This will start the FastAPI application in a Docker container, making it accessible at `http://localhost:8000`.
